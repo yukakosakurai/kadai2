@@ -13,30 +13,29 @@ header {
 	height: 70px;
 	width: 100%;
 }
-div {
-	display: block;
-}
+
 .mysite {
 	width: 1024px;
-	height: 70px;
 	margin:0 auto;
 }
 
-img {
+.logo {
 	height: 70px;
+	float: left;
 }
 
 .nav-list {
-  text-align: right;
+	float: right;
 }
 
+
 .nav-list-item {
-  list-style: none;   
-  font-size: 16px;
-  color: #FAFAFA;
-  padding:0 30px;
-  line-height: 70px;
-  float: right;
+	float: left;
+    line-height: 70px;
+    color: #FAFAFA;
+    padding: 0 30px;
+    list-style: none;
+    font-size: 16px;
 }
 
 .main-visual {
@@ -260,34 +259,58 @@ img {
 }
 
 .contact {
-	padding-bottom: 90px;
+	padding-bottom: 60px;
 }
 
 .mysite5 {
-	width: 800px;
-	margin: 0 auto;
-}
-
-.adress {
-	width: 800px;
-	padding:30px 0 90px 0;
+	width: 1024px;
 	margin:0 auto;
 }
 
-.m-t {
-	width:50%;
-	float: left;
+.heading {
+    padding-top: 90px;
+    text-align: center;
+    font-size: 32px;
+}
+
+.heading-text {
+    padding-top: 30px;
+    text-align: center;
+    font-size: 16px;
+}
+
+.adress {
+    width: 800px;
+    padding: 30px 0 90px 0;
+    margin: 0 auto;
+}
+.left {
+    width: 50%;
+    float: left;
+}
+
+.m-t{
+    width: 50%;
+    margin: 0 auto;
 }
 
 .c-title {
-	padding:20px 0 5px 0;
-	font-size: 20px;
+    margin: 20px 0 5px 0;
+    font-size: 20px;
+}
 
+.c-text {
+	text-decoration: underline;
+    font-size: 16px;
+}
+
+.right {
+    width: 50%;
+    float: right;
 }
 
 .sns {
-	width: 400px;
-	float: right;
+    margin: 0 auto;
 }
 
 i {
@@ -320,6 +343,10 @@ footer {
 
 .mysite {
 	width: 90%;
+}
+
+.logo {
+	float: none;
 	height: 50px;
 }
 
@@ -348,9 +375,6 @@ footer {
 
 .nav-list {
 	display: none;
-}
-img {
-	height: 50px;
 }
 
 .main-visual {
@@ -617,21 +641,3 @@ footer {
 	font-size: 16px;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-}

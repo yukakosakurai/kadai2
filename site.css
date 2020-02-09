@@ -3,10 +3,23 @@
 	padding: 0;
 	box-sizing: border-box;
 }
+
+body {
+	width: 100%;
+}
+
 header {
 	background-color: #EC715F;
 	height: 70px;
 	width: 100%;
+}
+div {
+	display: block;
+}
+.mysite {
+	width: 1024px;
+	height: 70px;
+	margin:0 auto;
 }
 
 img {
@@ -51,11 +64,12 @@ img {
 
 .portfolio {
 	background-color: #ECEFF1;
+	width: 100%;
 	height: 900px;
 }
 
 .mysite2 {
-	width: 920px;
+	width: 1024px;
 	margin:0 auto;
 }
 .title {
@@ -86,7 +100,7 @@ img {
 
 .main-photo {
 	width: 920px;
-	padding:30px 0 90px 0;
+	padding:0 0 90px 0;
 	margin:0 auto;
 	padding-bottom: 90px
 }
@@ -151,9 +165,12 @@ img {
 	margin:10px 0 0 0;
 }
 
+.feature {
+    background-size: cover;
+    background-position: center;
+}
 
 .mysite3 {
-	width:1024px;
 	margin:0 auto;
 	height: 720px;
 }
@@ -247,19 +264,19 @@ img {
 }
 
 .mysite5 {
-	width: 1024px;
+	width: 800px;
 	margin: 0 auto;
 }
 
 .adress {
 	width: 800px;
 	padding:30px 0 90px 0;
+	margin:0 auto;
 }
 
 .m-t {
-	width: 400px;
+	width:50%;
 	float: left;
-	margin:0 auto;
 }
 
 .c-title {
@@ -289,4 +306,332 @@ footer {
 .footer-text {
 	color: #FAFAFA;
 	font-size: 16px;
+}
+
+
+
+@media screen and (max-width:767px) {
+
+
+	header {
+	background-color: #EC715F;
+	height: 50px;
+}
+
+.mysite {
+	width: 90%;
+	height: 50px;
+}
+
+.hamberger {
+    float: right;
+    width: 35px;
+    height: 35px;
+    margin-right: 5%;
+    border: 1px solid #FAFAFA;
+    margin-top: 5px;
+	cursor: pointer;
+	background-color: #EC715F;
+	padding-top: 5px;
+}
+
+
+.ham_line {
+	text-align: center;
+	display: block;
+    width: 25px;
+    height: 1px;
+    margin: 5px auto;
+    background-color: #FAFAFA;
+}
+
+
+.nav-list {
+	display: none;
+}
+img {
+	height: 50px;
+}
+
+.main-visual {
+	height: 650px;
+	background-image: url(img/code.png);
+	background-size: cover;
+}
+
+.main-visual-content {
+	text-align: center;
+	padding-top: 200px;
+}
+
+.main-visual-text {
+	font-size: 40px;
+	color: #FAFAFA;
+}
+
+.main-visual-text2 {
+	font-size: 18px;
+	color: #FAFAFA;
+	padding:10px;
+}
+
+.portfolio {
+	background-color: #ECEFF1;
+	padding:0 5%;
+	height: 1200px;
+}
+
+.mysite2 {
+	width: 90%;
+	margin:0 auto;
+}
+
+.title {
+	font-size: 32px;
+	color: #000000;
+	text-align: center;
+	position: relative;
+	padding-top: 90px;
+}
+
+.title::after {
+	content: '';
+    width: 70px;
+    height: 3px;
+    background-color: #EC715F;
+    display: block;
+    margin: 8px auto 0 auto;
+    position:relative;
+}
+
+.main-text {
+	font-size: 16px;
+	color: #000000;
+	text-align: center;
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
+
+.main-photo {
+	width: 300px;
+}
+
+.main-photo1 {
+	background-image: url(img/sketch.jpg);
+	width: 300px;
+	height: 250px;
+	background-size: cover;
+	float:none;
+	margin:10px 10px 0 0;
+	background-position: center;
+	display: none;
+}
+
+.main-photo2 {
+	background-image: url(img/websuku.png);
+	width: 300px;
+	height: 250px;
+	background-size:cover;
+	float: left;
+	margin:10px 10px 0 0;
+	background-position: center;
+}
+
+.main-photo3 {
+	float: left;
+	background-image: url(img/write.jpg);
+	width: 300px;
+	height: 250px;
+	background-size: cover;
+	background-position: center;
+	margin:10px 0 0 0 ;
+	display: none;
+}
+
+.main-photo4 {
+	background-image: url(img/webcamp.png);
+	width: 300px;
+	height: 250px;
+	background-size: cover;
+	float:left;
+	background-position: center;
+	margin:10px 10px 0 0 ;
+}
+
+.main-photo5 {
+	background-image: url(img/talk.jpg);
+	width: 300px;
+	height: 250px;
+	background-size: cover;
+	float:left;
+	background-position: center;
+	margin:10px 10px 0 0 ;
+	display: none;
+}
+
+.main-photo6 {
+	background-image: url(img/webcamp-mother.png);
+	width: 300px;
+	height: 250px;
+	background-size: cover;
+	float:left;
+	background-position: center;
+	margin:10px 0 0 0;
+}
+
+.feature {
+    background-size: cover;
+    background-position: center;
+    padding:0 5%;
+    height: 1400px;
+}
+
+.mysite3 {
+	width: 90%;
+}
+
+
+.strength {
+    width: 320px;
+}
+
+.strength1 {
+	float: none;
+	float: left;
+    width: 320px;
+    text-align: center;
+    font-size: 60px;
+    margin-right: 10px;
+    color: #000000;
+}
+
+.strength2 {
+	float: none;
+	width: 320px;
+	text-align: center;
+	font-size: 60px;
+	color: #000000;
+	float: right;
+}
+
+.feature-title {
+	font-size: 20px;
+	color: #000000;
+	padding:10px 0;
+	text-align: center;
+}
+
+.feature-text {
+	font-size: 16px;
+	color: #000000;
+	text-align: left;
+}
+
+.profile {
+	padding:0 5%;
+}
+
+.mysite4 {
+	width: 90%;
+}
+
+.p-bottom {
+	text-align: center;
+}
+
+
+.p-photo {
+	width: 100%;
+	float:none;
+
+}
+
+.myicon {
+	width: 250px;
+	height: 250px;
+	border-radius: 50%;
+	margin: 0 auto;
+	background-image: url(img/my-icon.jpg);
+}
+
+.p-contents {
+	width: 100%;
+	float: none;
+}
+
+
+.profile-title {
+	font-size: 20px;
+}
+
+.profile-text {
+	font-size: 16px;
+	color: #000000;
+	padding-bottom: 20px;
+}
+
+.contact {
+	padding:0 5%;
+}
+
+.mysite5 {
+	width: 90%;
+}
+
+.adress {
+	width: 100%;
+	text-align: center;
+}
+
+.m-t {
+	width:100%;
+	float: none;
+}
+
+.c-title {
+	padding:20px 0 5px 0;
+	font-size: 20px;
+
+}
+
+.sns {
+	width: 100%;
+	float: none;
+}
+
+i {
+	font-size: 50px;
+	margin-right: 20px;
+}
+
+footer {
+	width: 100%;
+	height: 60px;
+	text-align: center;
+	background-color: #EC715F;
+	line-height: 60px;
+}
+
+.footer-text {
+	color: #FAFAFA;
+	font-size: 16px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 }
